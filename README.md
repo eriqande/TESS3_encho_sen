@@ -1,5 +1,8 @@
 # tess3r
-[![Build Status](https://travis-ci.org/BioShock38/TESS3_encho_sen.svg?branch=master)](https://travis-ci.org/BioShock38/TESS3_encho_sen)
+
+This has been hacked by Eric C. Anderson to provide a function that lets you pull
+out the raster stack underlying the map plots in tess3r.  That function is called
+`tess3Q_map_rasters()`.  Enjoy!
 
 tess3r is an R package for estimating and visualizing spatial population
 structure based on geographically constrained non-negative matrix
@@ -10,10 +13,12 @@ scans for selection (see [Overview](https://bioshock38.github.io/TESS3_encho_sen
 
 ## Installation
 
+To install this fork do this:
+
 Install the latest version from github (requires [devtools](https://github.com/hadley/devtools)):
 ```R
 # install.packages("devtools")
-devtools::install_github("BioShock38/TESS3_encho_sen")
+devtools::install_github("eriqande/TESS3_encho_sen")
 ```
 
 ## References
